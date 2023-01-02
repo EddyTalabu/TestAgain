@@ -25,7 +25,7 @@ public class Cars implements Comparable<Cars>{
         mota.add(new Cars("Evoque"));
         
         System.out.println("Cars before sorting :" + mota);
-        System.out.println("New version 3.1");
+        System.out.println("New version 5.2");
         Collections.sort(mota);
         System.out.println("\nCars after sorting, in descending order :" + mota);
     }
